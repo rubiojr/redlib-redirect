@@ -1,6 +1,9 @@
-# Old Reddit Redirect
+# Redlib Redirect
 
 Extension to redirect Reddit links to localhost:8585, where your [Redlib](https://github.com/redlib-org/redlib) server is running.
+
+> [!NOTE]
+> Redlib will need to be listening on localhost:8585 for this extension to work. 
 
 This is a fork of [Old Reddit Redirect](https://github.com/tom-james-watson/old-reddit-redirect/), from Tom Watson.
 
