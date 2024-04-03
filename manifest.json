@@ -1,0 +1,37 @@
+{
+  "name": "Redlib Redirect",
+  "description": "Redirect Reddit to your local instance",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://localhost:8585/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://reddit.com/*",
+    "*://www.reddit.com/*",
+    "*://np.reddit.com/*",
+    "*://amp.reddit.com/*",
+    "*://i.reddit.com/*",
+    "*://i.redd.it/*",
+    "*://preview.redd.it/*"
+  ]
+}
