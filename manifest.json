@@ -1,4 +1,9 @@
 {
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "redlib-redirect@rbel.co"
+    }
+  },
   "name": "Redlib Redirect",
   "description": "Redirect Reddit to your local instance",
   "version": "1.0.0",
